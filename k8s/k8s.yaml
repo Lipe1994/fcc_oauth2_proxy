@@ -57,7 +57,7 @@ spec:
 
             # --- Access ---
             - --email-domain=*
-            - --scope=openid profile
+            - --scope=openid profile email
 
             # --- UX ---
             - --upstream=static://200
