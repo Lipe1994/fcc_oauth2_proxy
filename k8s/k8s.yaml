@@ -51,9 +51,9 @@ spec:
             - --set-authorization-header=true
             - --pass-access-token=true
 
+            - --user-id-claim=email
             - --oidc-email-claim=email
             - --oidc-groups-claim=roles
-
 
             # --- Access ---
             - --email-domain=*
